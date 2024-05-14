@@ -34,3 +34,4 @@ salary(1200,(err,bounus) => {
         console.log("Your Bounus Is :",bounus) 
     }
 })
+

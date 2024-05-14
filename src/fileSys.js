@@ -1,7 +1,7 @@
-const fs = require('fs')
+const fs = require("fs");
 
 // //Sync
-// fs.writeFileSync("./text.txt","Hello Eons")
+// fs.writeFileSync("./text.txt","Hello Hari Hari")
 
 // // Async
 // fs.writeFile("./text.txt","Hello Eons Async" , (err) => {});
@@ -15,7 +15,7 @@ const fs = require('fs')
 // });
 // console.log(result);
 
-// fs.appendFileSync("./text.txt",`Hey Eons\n`);
+// fs.appendFileSync("./text.txt",`Hey Hari\n`);
 
 // fs.appendFileSync("./text.txt",`${Date.now()}Hey Eons\n`);
 
@@ -26,3 +26,61 @@ const fs = require('fs')
 
 // fs.mkdirSync("my-docss/a/b",{ recursive:true })
 
+// fs.mkdir("./src/asstets/Data",{recursive:true}, (err) => {
+//     if (err) {
+//         console.log(err);
+//     }
+
+//     console.log("Create Folder");
+
+// })
+
+// fs.writeFile("./src/asstets/Data/Data.txt","Hello Eons", { recursive: true }, (err) => {
+//   if (err) {
+//     console.log(err);
+//   }
+
+//   console.log("Create File");
+// });
+
+// fs.appendFile("./src/asstets/Data/Data.txt","I am IIT Developer\n" ,(err) => {
+//     if (err) {
+//         console.log(err);
+//         return;
+//     }
+
+//     console.log("Update");
+// })
+
+
+// fs.readFile("./src/asstets/Data/Data.txt","utf-8",(err,Data) => {
+//     if (err) {
+//         console.log(err);
+//     }
+
+//     console.log(Data);
+// })
+
+// fs.rename("./src/asstets/Data/Data.txt","./src/asstets/Data/Data1.txt",(err) => {
+
+//     if (err) {
+//         console.log(err);
+//     }
+//     console.log("Rename");
+// })
+
+// fs.unlink("./src/asstets/Data/Data1.txt",(err) => {
+//     if (err) {
+//         console.log(err);
+//     }
+
+//     console.log("Delete");
+// })
+
+// fs.stat("./src/asstets/Data/Data1.txt", (err,stat) => {
+//     if (err) {
+//         console.log(err);
+//     }
+
+//     console.log(stat);
+// })

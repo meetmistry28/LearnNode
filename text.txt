@@ -1,7 +1,1 @@
-Hello Eons Async99HeHey Hey EonsHey Eons
-Hey Eons
-Hey Eons
-Hey Eons
-Hey Eons
-function Date() { [native code] }Hey Eons
-1715274212693Hey Eons
+Hello eons
