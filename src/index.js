@@ -1,3 +1,22 @@
+const express = require('express')
+const app = express()
+const router = express.Router()
+const index = require("./router/v1/index1")
+
+app.use("/api/v1/",index)
+
+app.listen(3000,() => {
+    console.log("server is running on port 3000")
+})
+
+module.exports = router
+
+
+
+
+
+
+
 // const rect = require("./rectangle");
 
 // // rect.area(10,20)
@@ -15,7 +34,6 @@
 // // solveRect(10,96);
 // // solveRect(50,-96)
 
-
 // rect(20, 40, (err, area, perimeter) => {
 //   if (err) {
 //       console.log(err);
@@ -25,13 +43,12 @@
 //   }
 // })
 
-const salary = require("./salary")
+// const salary = require("./salary")
 
-salary(1200,(err,bounus) => {
-  if(err){
-        console.log(err)
-    }else{
-        console.log("Your Bounus Is :",bounus) 
-    }
-})
-
+// salary(1200,(err,bounus) => {
+//   if(err){
+//         console.log(err)
+//     }else{
+//         console.log("Your Bounus Is :",bounus)
+//     }
+// })
